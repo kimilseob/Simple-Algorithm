@@ -1,0 +1,26 @@
+package _1;
+
+import java.util.ArrayList;
+
+public class Main {
+	
+	public static void main(String[] args) {
+		
+		Student st1 = new Student("¼Õ¿À°ø" , "1894");
+		Student st2 = new Student("ÀúÆÈ°è" , "1694");
+		Student st3 = new Student("±èÀÏ¼·" , "1892");
+		
+		ArrayList <Student>list = new ArrayList<Student>();
+		
+		list.add(st1);
+		list.add(st2);
+		list.add(st3);
+		
+		
+		for(Student stu : list) {
+			System.out.println(stu.getName());
+			System.out.println(stu.getNo());
+		}
+		
+	}
+}

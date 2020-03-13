@@ -1,0 +1,21 @@
+package _10;
+
+import java.util.Scanner;
+
+public class Main {
+	public static void main(String[] args) {
+		
+		Scanner scan = new Scanner(System.in);
+		
+		int input = scan.nextInt();
+		int k =1;
+		for(int i=0;i<input;i++) {
+			for(int j= 0;j<input;j++) {
+				System.out.printf("%4d" , + k);
+				k++;
+			}
+			System.out.println();
+		}
+		
+	}
+}

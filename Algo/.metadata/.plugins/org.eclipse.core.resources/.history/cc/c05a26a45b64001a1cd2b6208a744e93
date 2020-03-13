@@ -1,0 +1,16 @@
+package _23;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		String input = "ADEFH";
+		char [] array = input.toCharArray();
+		System.out.println(array.length);
+		
+		
+		for(int i=array.length-1 ; i>=0; i--) {
+			System.out.print(" "+array[i]);
+		}
+	}
+}

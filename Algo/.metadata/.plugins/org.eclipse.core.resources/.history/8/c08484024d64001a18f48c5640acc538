@@ -1,0 +1,15 @@
+package _19;
+
+public class Main {
+	
+	public static void main(String[] args) {
+		
+		int n = 5;
+		int m = 3;
+		
+		for(int i= 0 ; i < m; i++) {
+			n = n*n;
+		}
+		System.out.println("Á¤´ä" + n);
+	}
+}
